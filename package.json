@@ -1,0 +1,21 @@
+{
+  "name": "first-agent",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "finance_api.js",
+  "scripts": {
+    "dev": "node --env-file=.env finance_cli.js",
+    "dev:rest": "node --env-file=.env finance_api.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@tavily/core": "^0.7.13",
+    "dotenv": "^18.0.2",
+    "groq-sdk": "^1.6.0",
+    "node-cache": "^5.1.2",
+    "openai": "^7.21.0"
+  }
+}
